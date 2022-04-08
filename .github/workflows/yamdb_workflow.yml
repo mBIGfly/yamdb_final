@@ -33,7 +33,7 @@ jobs:
       - name: Test with flake8 and django tests
         run: |
           # запуск проверки проекта по flake8
-          python -m flake8 . --exclude /api_yamdb/api/permissions.py,api/migrations
+          python -m flake8 . --exclude /api_yamdb/api/permissions.py,api/migrations,/tests/
           # перейти в папку, содержащую manage.py — 
           #<корневая_папка_yamdb_final>/<папка_проекта>/manage.py
           cd api_yamdb/
