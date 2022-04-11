@@ -57,6 +57,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           #passphrase: ${{ secrets.PASSPHRASE }}
           script: |
+            sudo docker pull mbigfly/yamdb_final
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
@@ -77,4 +78,4 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          message: ${{ github.workflow }} успешно выполнен!!!
+          message: ${{ github.workflow }} успешно выполнен!
