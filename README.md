@@ -1,8 +1,6 @@
 # yamdb_final
 
 ![Yamdb Workflow Status](https://github.com/mbigfly/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
-
-[![yamdb_final workflow](https://github.com/mBIGfly/yamdb_final/workflows/yamdb_final%20workflow/badge.svg)](https://github.com/mBIGfly/yamdb_final/actions?query=workflow%3A%22yamdb_final+workflow%22)
 # API_YAMDB
 Проект для сервиса YaMDb — сбор отзывов о фильмах, книгах или музыке.
 
