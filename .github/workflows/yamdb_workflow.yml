@@ -27,7 +27,7 @@ jobs:
           # установка flake8 и его плагинов
           pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
           # установка зависимостей
-          cd api_yamdb/
+          #cd api_yamdb/
           pip install -r requirements.txt
 
       - name: Test with flake8 and django tests
@@ -36,7 +36,7 @@ jobs:
           #python -m flake8 . --exclude /api_yamdb/api/permissions.py,./api_yamdb/reviews,api/migrations,/tests
           # перейти в папку, содержащую manage.py — 
           #<корневая_папка_yamdb_final>/<папка_проекта>/manage.py
-          
+          cd api_yamdb/
           # запустить написанные разработчиком тесты
           python manage.py test
 
