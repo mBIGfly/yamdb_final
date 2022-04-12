@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    image: mbigfly/yamdb_final:latest
+    image: mbigfly/infra_actions
     restart: always
     volumes:
       - static_value:/app/static/
