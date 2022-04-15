@@ -148,3 +148,8 @@ REST_FRAMEWORK = {
 
 SIMPLE_JWT = {'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
               'AUTH_HEADER_TYPES': ('Bearer',), }
+
+INTERNAL_IPS = [
+    '127.0.0.1',
+    '0.0.0.0:',
+]
