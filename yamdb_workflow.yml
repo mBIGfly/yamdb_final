@@ -59,7 +59,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
 
           script: |
-            sudo docker pull mbigfly/yamdb_final
+            sudo docker pull mbigfly/yamdb_final:latest
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
