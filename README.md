@@ -4,9 +4,6 @@
 <!-- https://github.com/mBIGfly/yamdb_final/workflows/yamdb_final/badge.svg -->
 # API_YAMDB
 Проект для сервиса YaMDb — сбор отзывов о фильмах, книгах или музыке.
-
-[Пример сервера](http://51.250.66.158/admin/login/?next=/admin/)
-
 ## Описание
 
 Проект YaMDb собирает отзывы пользователей на произведения.
