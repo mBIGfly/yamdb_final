@@ -57,7 +57,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
-          
+
           script: |
             sudo docker pull mbigfly/yamdb_final
             sudo docker-compose stop
@@ -70,8 +70,6 @@ jobs:
             echo DB_HOST=${{ secrets.DB_HOST }} >> .env
             echo DB_PORT=${{ secrets.DB_PORT }} >> .env
             sudo docker-compose up -d
-            sudo docker-compose exec web python manage.py migrate
-            
 
   send_message:
     runs-on: ubuntu-latest
