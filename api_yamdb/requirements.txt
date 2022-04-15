@@ -11,6 +11,5 @@ psycopg2-binary==2.8.6
 asgiref==3.2.10
 pytz==2020.1
 sqlparse==0.3.1 
-python-dotenv==0.19.0
-djoser==2.1.0
 python-dotenv==0.20.0
+djoser==2.1.0
