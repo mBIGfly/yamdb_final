@@ -2,10 +2,22 @@
 
 ![](https://github.com/mBIGfly/yamdb_final/workflows/yamdb_final/badge.svg)
 <!-- https://github.com/mBIGfly/yamdb_final/workflows/yamdb_final/badge.svg -->
+
+
+
+<!-- 
+Нет прав для смены Private template на Public, вот что пишут:
+Danger Zone
+Change repository visibility
+For security reasons, you cannot change the visibility of a fork.
+Transfer ownership
+This repository is not transferrable. Please contact the owner of the root repository, yandex-praktikum. -->
+
 # API_YAMDB
 Проект для сервиса YaMDb — сбор отзывов о фильмах, книгах или музыке.
 
-[Пример сервера] борюсь с портами уже сутки :(
+[Пример сервера] http://51.250.66.158/api/v1/
+                 http://mbfly.ddns.net/api/v1/
 ## Описание
 
 Проект YaMDb собирает отзывы пользователей на произведения.
