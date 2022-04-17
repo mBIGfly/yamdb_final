@@ -16,7 +16,7 @@ This repository is not transferrable. Please contact the owner of the root repos
 # API_YAMDB
 Проект для сервиса YaMDb — сбор отзывов о фильмах, книгах или музыке.
 
-[Пример сервера] http://51.250.66.158/api/v1/
+[Пример сервера] http://mbfly.ddns.net/redoc/
                  http://mbfly.ddns.net/api/v1/
 ## Описание
 
