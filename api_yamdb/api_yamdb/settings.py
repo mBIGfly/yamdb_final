@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
     'django_filters',
-    # 'djoser',
+    'djoser',
     'reviews',
     'api',
 
@@ -84,6 +84,7 @@ DATABASES = {
 
 
 # Password validation
+AUTH_USER_MODEL = 'reviews.User'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -116,8 +117,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 
-AUTH_USER_MODEL = 'reviews.User'
-
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
 
@@ -131,7 +130,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication',
